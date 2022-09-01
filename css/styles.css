@@ -1,0 +1,151 @@
+body {
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: 110% -3rem;
+    background-size: 40rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: hsl(227, 12%, 61%);
+}
+
+.bg-primary,
+.button.primary{
+    background-color: hsl(12, 88%, 59%)!important;
+}
+
+.text-primary{
+    color: hsl(12, 88%, 59%)!important;
+}
+
+nav .nav-link:hover{
+    font-weight: normal;
+}
+
+.button:hover{
+    border: 0;
+    opacity: 0.7;
+}
+
+h1, h5, h6{
+    color: #242d52;
+}
+
+h6{
+    margin-left: -1.1rem;
+}
+
+.features-section {
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: -38% 34rem;
+    background-size: 35rem;
+}
+
+.badge {
+    padding: 0.725rem;
+    z-index: 2;
+}
+
+.card-img{
+    width: 4rem;
+    margin-top: -3.2rem;
+    margin-bottom: 1rem;
+}
+
+.simplify-section {
+    background-color: hsl(12, 88%, 59%);
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 9rem 100%;
+    background-size: 65rem;
+}
+
+.social-link{
+    transform: scale(0.7);
+}
+
+.social-link path:hover{
+    fill: hsl(12, 88%, 59%);
+    cursor: pointer;
+}
+
+footer .nav-link:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+
+
+
+/***************************************************  Mobile Design  *************************************************************/
+@media screen and (max-width: 992px){
+    .features-section {
+        background-position: -45% 50rem;
+        background-size: 25rem;
+    }
+
+    body {
+        background-position: 120% -4rem;
+        background-size: 30rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .introductory-section, .feature-1, .testimonial-section{
+        padding-top: 3rem;
+        padding-bottom: 7rem;
+    }
+
+    .features{
+        padding-left: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 768px){    
+    .simplify-section {
+        background-image: url(../images/bg-simplify-section-mobile.svg);
+        background-position: -3rem -8rem;
+        background-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 767px){  
+    .features-section {
+        background-image: none;
+    }
+
+    h6{
+        background-color: #ffefeb;
+    }
+
+    .control{
+        width: 25rem;
+    }
+
+    .social-link{
+        transform: scale(1.5);
+    }    
+
+    footer .nav-link{
+        color: rgba(218, 211, 211, 0.808);
+    }
+}
+
+@media screen and (max-width: 576px){    
+    body {
+        background-position: 6rem -6rem;
+    }
+
+    .control{
+        width: 16rem;
+    }
+}
+
+
+
+
+
+
+
+
+    
+
+
